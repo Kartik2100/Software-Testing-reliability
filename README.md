@@ -1,21 +1,12 @@
 
-# A3 starter code
-
-This directory contains an updated GPA calculator library within the
-subdirectory `gpa_calculator` as well a sample to start your test
-suite
-
 
 # How to run
-
 Run the test suite using this command:
 
 	python3 A3_mocking.py
 
 
 # Test Status
-
-This section lists each test in the suite, and its current status (PASS or FAIL)
 
 I think the second task needs mocks and the first and thrid task do not. For the first task, it is possible to test the function without mocks like in Assignment 1. For the second task, we are trying to see within the method itself that something like getLetterForNumericGrade is getting called properly. A mock is useful in this situation to see if the assert is called
 within the method. In task three it seems like a mock is not needed since we are testing the return value of whether or not it is returning properly.
